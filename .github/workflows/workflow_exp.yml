@@ -1,4 +1,4 @@
-      name: my CI Exp
+name: my ci exp
 
 on:
  push:
