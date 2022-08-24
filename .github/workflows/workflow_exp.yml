@@ -1,4 +1,4 @@
-name: my_CI_Exp
+      name: my_CI_Exp
 
 on:
  push:
@@ -7,13 +7,15 @@ on:
 
 jobs:
   job1:
-   runs-on: ubuntu-latest
-   steps:
-     - uses: action/checkout@v3
-     - name: Run a one-line script 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v3
+      - name: Run a one-line script 
        run: echo hello world
 
-     - name: Run a multi-line script
+      - name: Run a multi-line script
        run :
-       echo iam manikanta 
-       echo iam from hyderabad 
+        echo iam manikanta 
+        echo iam from hyderabad 
+
+
