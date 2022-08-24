@@ -1,21 +1,21 @@
 name: my ci exp
 
 on:
- push:
+  push:
     branches: ["main","master"]
- workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-  job1:
+  job3:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script 
-       run: echo hello world
+        run: echo hello world
 
       - name: Run a multi-line script
-       run :
-        echo iam manikanta 
-        echo iam from hyderabad 
+        run :
+         echo iam manikanta 
+         echo iam from hyderabad 
 
 
